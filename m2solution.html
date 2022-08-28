@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M2 Assignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <style>
+        * {box-sizing: border-box;}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#m1 {
+    border: 4px solid black;
+    background-color: rgb(183, 177, 177);
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+#m2 {
+    border: 4px solid black;
+    background-color: rgb(183, 177, 177);
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+#m3 {
+    border: 4px  solid black;
+    background-color: rgb(183, 177, 177);
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+#heading {
+    text-align: center;
+}
+div > h3 {
+    border: 1px solid black;
+    padding: 5px;
+    width: 80px;
+    background-color: brown;
+    float: right;
+    margin: -1px;
+    text-align: center;
+    height: 33px;
+}
+@media (max-width: 767px) {
+
+    .container {
+        margin: 30px
+        
+    }
+    #m1 {
+        width: 100%; 
+        overflow: hidden;
+    }
+    #m2 {
+        width: 100%;
+        overflow: hidden;
+           }
+    #m3 {
+        width: 100%;
+        overflow: hidden;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .container {
+        margin: 30px
+    }
+    #m1 {
+        width: 49.2%;
+        float: left;
+    }
+    #m2 {
+        width: 49.2%;
+        float: right;
+        
+    }
+    #m3 {
+        width: 100%;
+        clear: both;
+    
+    }
+}
+@media (min-width: 992px) {
+
+    .container {
+        margin: 30px
+    }
+    #m1 {
+        width: 32.75%;
+        float: left;
+        margin-right: 5px;
+    }
+    #m2 {
+        width: 32.75%;
+        float: left;
+        margin-right: 5px;
+    }
+    #m3 {
+        width: 32.75%;
+        float: left;
+        margin-right: 5px;
+    }
+}
+    </style>
+    
+
+    <div class="container">
+        <div>
+            <h1 id="heading">
+                Menu
+            </h1>
+        </div>
+        <div id="m1">
+            <h3 style="background-color: rgb(255, 140, 140) ;">Chicken</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium consequatur mollitia dolore suscipit iusto culpa tenetur sapiente fuga exercitationem autem.</p>
+        </div>
+        <div id="m2">
+            <h3 style="background-color: rgb(255, 36, 36) ;">Beef</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium consequatur mollitia dolore suscipit iusto culpa tenetur sapiente fuga exercitationem autem.</p>
+        </div>
+        <div id="m3">
+            <h3 style="background-color: rgb(255, 181, 112) ;">Sushi</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium consequatur mollitia dolore suscipit iusto culpa tenetur sapiente fuga exercitationem autem.</p>
+        </div>
+    </div>
+</body>
+</html>
